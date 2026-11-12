@@ -313,7 +313,7 @@ auth
 ...
 ```
 
-See more examples in: [https://github.com/etcd-io/etcd/tree/master/tools/etcd-dump-db](https://github.com/etcd-io/etcd/tree/master/tools/etcd-dump-db)
+See more examples in: [https://github.com/etcd-io/etcd/tree/release-{{< psubstr version 1 >}}/tools/etcd-dump-db](https://github.com/etcd-io/etcd/tree/release-{{< psubstr version 1 >}}/tools/etcd-dump-db)
 
 
 ## WAL: Write ahead log
@@ -407,7 +407,7 @@ The "indexes" in the WAL log are expected to:
 
 #### etcd-dump-logs
 
-etcd WAL logs can be read using [etcd-dump-logs](https://github.com/etcd-io/etcd/tree/master/tools/etcd-dump-logs) tool:
+etcd WAL logs can be read using [etcd-dump-logs](https://github.com/etcd-io/etcd/tree/release-{{< psubstr version 1 >}}/tools/etcd-dump-logs) tool:
 
 ```
 % go install go.etcd.io/etcd/v3/tools/etcd-dump-logs@latest

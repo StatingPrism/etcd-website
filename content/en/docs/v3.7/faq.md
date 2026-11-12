@@ -158,9 +158,9 @@ etcd sends a snapshot of its complete key-value store to refresh slow followers 
 [api-mvcc]: ../learning/api/#revisions
 [backend_commit_metrics]: ../metrics/#disk
 [backup]: ../op-guide/recovery/#snapshotting-the-keyspace
-[benchmark]: https://github.com/etcd-io/etcd/tree/main/tools/benchmark
+[benchmark]: https://github.com/etcd-io/etcd/tree/release-{{< psubstr version 1 >}}/tools/benchmark
 [benchmark-result]: ../op-guide/performance/
-[chubby]: http://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf
+[chubby]: https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf
 [fio]: https://github.com/axboe/fio
 [fio-blog-post]: https://web.archive.org/web/20240726111518/https://prog.world/is-storage-speed-suitable-for-etcd-ask-fio/
 [hardware-setup]: ../op-guide/hardware/

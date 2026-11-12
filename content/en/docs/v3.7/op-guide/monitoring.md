@@ -136,7 +136,7 @@ Now Prometheus will scrape etcd metrics every 10 seconds.
 
 ### Alerting
 
-There is a set of [default alerts](https://github.com/etcd-io/etcd/tree/main/contrib/mixin) for etcd v3 clusters for Prometheus.
+There is a set of [default alerts](https://github.com/etcd-io/etcd/tree/release-{{< psubstr version 1 >}}/contrib/mixin) for etcd v3 clusters for Prometheus.
 
 {{% alert title="Note" color="info" %}}
 

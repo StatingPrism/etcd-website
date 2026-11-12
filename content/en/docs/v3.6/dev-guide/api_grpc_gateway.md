@@ -145,8 +145,8 @@ context.
 Generated [Swagger][swagger] API definitions can be found at [rpc.swagger.json][swagger-doc].
 
 [api-ref]: ../api_reference_v3/
-[etcdctl]: https://github.com/etcd-io/etcd/tree/main/etcdctl
-[go-client]: https://github.com/etcd-io/etcd/tree/main/client/v3
+[etcdctl]: https://github.com/etcd-io/etcd/tree/release-{{< psubstr version 1 >}}/etcdctl
+[go-client]: https://github.com/etcd-io/etcd/tree/release-{{< psubstr version 1 >}}/client/v3
 [grpc]: https://www.grpc.io/
 [grpc-gateway]: https://github.com/grpc-ecosystem/grpc-gateway
 [grpc-gateway-v2-errors]: https://github.com/grpc-ecosystem/grpc-gateway/blob/main/docs/docs/development/grpc-gateway_v2_migration_guide.md#error-handling-configuration-has-been-overhauled

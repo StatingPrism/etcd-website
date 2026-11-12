@@ -453,4 +453,4 @@ When etcd create certain new directories it sets file permission to 700 to preve
 [cfssl]: https://github.com/cloudflare/cfssl
 [dm-crypt]: https://en.wikipedia.org/wiki/Dm-crypt
 [tls-guide]: https://github.com/coreos/docs/blob/master/os/generate-self-signed-certificates.md
-[tls-setup]: https://github.com/etcd-io/etcd/tree/master/hack/tls-setup
+[tls-setup]: https://github.com/etcd-io/etcd/tree/release-{{< psubstr version 1 >}}/hack/tls-setup

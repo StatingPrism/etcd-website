@@ -8,7 +8,7 @@ Note that third-party libraries and tools (not hosted on [etcd-io main repositor
 
 ## Tools
 
-- [etcdctl](https://github.com/etcd-io/etcd/tree/master/etcdctl) - A command line client for etcd
+- [etcdctl](https://github.com/etcd-io/etcd/tree/release-{{< psubstr version 1 >}}/etcdctl) - A command line client for etcd
 - [etcd-dump](https://npmjs.org/package/etcd-dump) - Command line utility for dumping/restoring etcd.
 - [etcd-fs](https://github.com/xetorthio/etcd-fs) - FUSE filesystem for etcd
 - [etcddir](https://github.com/rekby/etcddir) - Realtime sync etcd and local directory. Work with windows and linux.
@@ -36,7 +36,7 @@ The sections below list etcd client libraries by language.
 
 ### Go
 
-- [etcd/client/v3](https://github.com/etcd-io/etcd/tree/main/client/v3) - the officially maintained Go client for v3
+- [etcd/client/v3](https://github.com/etcd-io/etcd/tree/release-{{< psubstr version 1 >}}/client/v3) - the officially maintained Go client for v3
 - [etcd/client/v2](https://github.com/etcd-io/etcd/tree/release-3.5/client/v2) - the officially maintained Go client for v2
 - [go-etcd](https://github.com/coreos/go-etcd) - the deprecated official client. May be useful for older (<2.0.0) versions of etcd.
 - [encWrapper](https://github.com/lumjjb/etcd/tree/enc_wrapper/clientwrap/encwrapper) - encWrapper is an encryption wrapper for the etcd client Keys API/KV.
@@ -197,7 +197,7 @@ The sections below list etcd client libraries by language.
 - [lytics/metafora](https://github.com/lytics/metafora) - Go distributed task library
 - [ryandoyle/nss-etcd](https://github.com/ryandoyle/nss-etcd) - A GNU libc NSS module for resolving names from etcd.
 - [Gru](https://github.com/dnaeon/gru) - Orchestration made easy with Go
-- [Vitess](http://vitess.io/) - Vitess is a database clustering system for horizontal scaling of MySQL.
+- [Vitess](https://vitess.io/) - Vitess is a database clustering system for horizontal scaling of MySQL.
 - [lclarkmichalek/etcdhcp](https://github.com/lclarkmichalek/etcdhcp) - DHCP server that uses etcd for persistence and coordination.
 - [openstack/networking-vpp](https://github.com/openstack/networking-vpp) - A networking driver that programs the [FD.io VPP dataplane](https://wiki.fd.io/view/VPP) to provide [OpenStack](https://www.openstack.org/) cloud virtual networking
 - [OpenStack](https://github.com/openstack/governance/blob/master/reference/base-services.rst) - OpenStack services can rely on etcd as a base service.
