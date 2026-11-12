@@ -243,7 +243,7 @@ It is enabled by default.
 [design-learner]: ../../learning/design-learner
 [disaster recovery]: ../recovery
 [error cases when promoting a member]: #error-cases-when-promoting-a-learner-member
-[fault tolerance table]: /docs/v2.3/admin_guide/#fault-tolerance-table
+[fault tolerance table]: ../../faq#what-is-failure-tolerance
 [majority failure]: #restart-cluster-from-majority-failure
 [member migration]: /docs/v2.3/admin_guide/#member-migration
 [member-api]: /docs/v2.3/members_api/

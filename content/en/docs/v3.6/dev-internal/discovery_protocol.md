@@ -102,6 +102,6 @@ etcdctl --endpoints=http://example.com:2379 watch /_etcd/registry/${UUID}/member
 ```
 
 [v2-discovery]: /docs/v3.5/dev-internal/discovery_protocol
-[cluster-size]: /docs/v2.3/admin_guide#optimal-cluster-size
+[cluster-size]: ../../faq#what-is-maximum-cluster-size
 [expected-cluster-size]: #specifying-the-expected-cluster-size
 [new-discovery-token]: #creating-a-new-discovery-token
